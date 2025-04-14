@@ -1,0 +1,7 @@
+services:
+  build_tinyxml:
+    build:
+      dockerfile: ./build.Dockerfile
+  test_tinyxml:
+    build:
+      dockerfile: ./test.Dockerfile
